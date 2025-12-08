@@ -16,7 +16,7 @@ const pageFiles = fs.readdirSync(pagesDir)
   }, {});
 
 export default defineConfig({
-  base: '/Karaoke_Scroller/',
+  base: '/Karaoke_for_Singers/',
   plugins: [react()],
   build: {
     rollupOptions: {
