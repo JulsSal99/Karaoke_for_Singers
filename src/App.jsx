@@ -1,12 +1,11 @@
 import Messaggio from "./components/Messaggio";
-import Cube3D from "./components/Cube3D";
+import KaraokeScroller from "./components/KaraokeScroller";
 
 export default function App() {
   return (
     <div className="container py-4">
-      <h3>Test di Animazione</h3>
-      <Messaggio testo="Se lo vedi, React sta andato" />
-      <Cube3D />
+      <h3>Karaoke per Cantanti</h3>
+      <KaraokeScroller />
     </div>
   );
 }

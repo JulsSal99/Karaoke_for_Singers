@@ -1,0 +1,69 @@
+.div-container {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.input-text-area {
+    width: 100%;
+    height: 120px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+}
+
+.karaoke-area {
+    margin-top: 40px;
+    height: 220px;
+    border: 2px solid #666;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+}
+
+.fullscreen-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 6px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.nav-btn {
+    position: absolute;
+    left: 10px;
+    padding: 6px 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    cursor: pointer;
+}
+
+.up-btn {
+    top: 10px;
+}
+
+.down-btn {
+    bottom: 10px;
+}
+
+.main-line {
+    position: absolute;
+}
